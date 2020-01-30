@@ -9,7 +9,7 @@ end
 
 def display_card_total(cards)
   # code #display_card_total here
-  
+  cards.reduce{|sum, card| sum += card}
 end
 
 def prompt_user
