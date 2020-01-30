@@ -26,7 +26,7 @@ end
 
 def end_game(total)
   # code #end_game here
-  
+  total
 end
 
 def initial_round
