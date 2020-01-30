@@ -41,7 +41,7 @@ def hit?(num)
   # code hit? here
   prompt_user
   input = get_user_input
-  num
+  if input == 'h'
 end
 
 def invalid_command
