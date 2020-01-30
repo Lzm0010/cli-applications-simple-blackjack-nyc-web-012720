@@ -65,7 +65,6 @@ end
 
 def runner
   # code runner here
-  hand_total = 0
   welcome
   hand_total = initial_round
   while hand_total < 21
