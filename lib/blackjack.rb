@@ -10,7 +10,7 @@ end
 def display_card_total(card)
   # code #display_card_total here
   # cards.reduce{|sum, card| sum += card}
-  puts card
+  puts "Your cards add up to #{card}"
   card
 end
 
