@@ -45,6 +45,7 @@ def hit?(num)
     num
   elsif input == 's'
     num
+  end
 end
 
 def invalid_command
