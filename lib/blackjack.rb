@@ -65,8 +65,10 @@ end
 
 def runner
   # code runner here
+  hand_total = 0
   welcome
   initial_round
+  if 
   hit?
 end
     
