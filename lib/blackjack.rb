@@ -70,6 +70,7 @@ def runner
   initial_round
   while hand_total < 21
     hit?
+    display_card_total
     
 end
     
