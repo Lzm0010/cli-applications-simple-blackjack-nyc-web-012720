@@ -7,9 +7,10 @@ def deal_card
   card = rand(1..11)
 end
 
-def display_card_total(cards)
+def display_card_total(card)
   # code #display_card_total here
-  cards.reduce{|sum, card| sum += card}
+  # cards.reduce{|sum, card| sum += card}
+  card
 end
 
 def prompt_user
